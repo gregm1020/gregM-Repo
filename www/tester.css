@@ -1,0 +1,26 @@
+body { 
+background-color: #1452ff;
+color: #2e2e1a;
+font-family: arial, helvetica, sans-serif;
+}
+
+h1 {     /* gpm 2018-10-31 changes the first header to be in the center of the webpage */
+    text-align: center;
+}
+
+p {     /* gpm 2018-10-31 changing the font of the paragrph text  */
+    font-family: "Times New Roman", Times, serif;
+}
+
+img {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
+    width: 20%;
+    height: auto;
+}
+
+ul {    /* gpm 2018-10-31 this is changing the unordered list bullet points to be squares */
+    list-style-type: square;
+}
+
+ol {    /*  gpm 2018-10-31  this is changing the ordered list from numbers to roman numerals */
+    list-style-type: upper-roman;
+}
