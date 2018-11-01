@@ -1,15 +1,24 @@
 body { 
-background-color: #1452ff;
-color: #2e2e1a;
+background-color: #1452ff;          /* gpm 2018-11-1 this is the background color of the entire webpage */
+color: #2e2e1a;                 /*  gpm 2018-11-1 this is the color of the text in the document */
 font-family: arial, helvetica, sans-serif;
 }
 
 h1 {     /* gpm 2018-10-31 changes the first header to be in the center of the webpage */
     text-align: center;
+    font-family: "Courier New", Monospace, sans-serif;      /* gpm 2018-11-1 This is changing the font of the heading of the website to courier new  */
+}
+
+h4 {        /* gpm 2018-11-1 I changed all the heading 4 text to be courier new  */
+    font-family: "Courier New", Monospace, sans-serif;
+    background-color: #66ffff;      /* gpm 2018-11-1 This changes the background color of the titles for each section */
 }
 
 p {     /* gpm 2018-10-31 changing the font of the paragrph text  */
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Impact", Charcoal, sans-serif;
+    border: 1px solid black;
+    outline-style: double;      /* gpm 2018-11-1 this puts a double outline border over most of my paragraph elements in my webpage */
+    outline-color: #66ffff;
 }
 
 img {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
