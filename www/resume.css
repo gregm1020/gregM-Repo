@@ -1,0 +1,23 @@
+body {
+    background-color: #669999;      /* gpm 2018-11- changes the background color of the document */
+    color: #2e2e1a;
+    font-family: arial, helvetica, sans-serif;
+}
+
+p {
+   font-family: "Courier New", Monospace, sans-serif;
+}
+
+header {        /*  gpm 2018-11-7 changes the heading in resume.html to be centered, and changes the font */
+     font-family: "Courier New", Monospace, sans-serif;
+     text-align: center;
+}
+
+ul {        /* gpm 2018-11-7 changes the unordered list to a new font to show up more prominently  */
+    font-family: "Courier New", Monospace, sans-serif;
+    list-style-type: square;
+}
+    
+h4 {        /* gpm 2018-11-7 changes the headings of each section to show up better  */
+    font-family: "Impact", Charcoal, sans-serif;
+}

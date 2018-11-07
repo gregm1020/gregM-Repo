@@ -40,7 +40,3 @@ ol {    /*  gpm 2018-10-31  this is changing the ordered list from numbers to ro
     outline-color: #cc33ff;
 }
 
-header {        /*  gpm 2018-11-6 changes the heading in resume.html to be centered, and changes the font */
-     font-family: "Courier New", Monospace, sans-serif;
-     text-align: center;
-}
