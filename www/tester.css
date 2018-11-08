@@ -21,9 +21,9 @@ p {     /* gpm 2018-10-31 changing the font of the paragrph text  */
     outline-color: #cc33ff;
 }
 
-img {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
-    width: 20%;
-    height: auto;
+.image {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
+    width: 18%;
+    height: 18%;
 }
 
 ul {    /* gpm 2018-10-31 this is changing the unordered list bullet points to be squares */
@@ -39,4 +39,3 @@ ol {    /*  gpm 2018-10-31  this is changing the ordered list from numbers to ro
     outline-style: double;
     outline-color: #cc33ff;
 }
-

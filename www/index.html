@@ -10,25 +10,31 @@
         <!--Code the viewable portion of your page here.--> 
            
         <h1>Greg Maleckar Personal Repo</h1>
-            
-        <h5><a href="resume.html">My Resume</a></h5>    <!-- gpm 2018-11-6 creates a link to the resume.html document -->
-            
+         
+        <section id="resumeLinks">
+        <h6><a href="resume.html">My Resume</a></h6>    <!-- gpm 2018-11-6 creates a link to the resume.html document -->
+        <h6><a href="resume.html#personalInfo">Personal Information</a></h6>    <!-- gpm 2018-11-7 creates a link to the personal info on my resume -->
+        <h6><a href="resume.html#education">Education</a></h6>      <!-- gpm 2018-11-7 creates a link to the education part of my resume -->
+        <h6><a href="resume.html#volunteer">Volunteer Work</a></h6>     <!-- gpm 2018-11-7 creates a link to my volunteer work part of my resume -->
+        <h6><a href="resume.html#skills">Skills</a></h6>        <!-- gpm 2018-11-7 creates a link to my skills part of my resume -->
+        </section> 
+        
         <hr /> 
         
         <h4>About Me</h4>
         
-        <div class="aboutMe">       <!-- gpm 2018-11-3 This divides the about me paragraph section into a category of its own so I can reference it easier in my CSS file -->
+        <section id="aboutMe">       <!-- gpm 2018-11-3 This divides the about me paragraph section into a category of its own so I can reference it easier in my CSS file -->
             <p>I am currently 20 years of age. I was born and grew up in the city of Pittsburgh. I went to Pine-Richland High School.</p>
-        </div>
+        </section>
         
         <hr />
         
         <h4>Education Information</h4>      <!-- gpm 2018-10-30 information about my education experience -->
         
-        <div class="educationInfo">     <!-- gpm 2018-11-3 This divies the education info section into a category of its own so I can reference it easier -->
+        <section id="educationInfo">     <!-- gpm 2018-11-3 This divies the education info section into a category of its own so I can reference it easier -->
             <p>I am a student at the University of Pittsburgh at Greensburg. I am 
         a sophomore, and I am pursuing a major in Information Technology. I plan on graduating in 4 years with a Bachelor's degree.</p>
-        </div>
+        </section>
         
         <hr />
         
@@ -36,7 +42,7 @@
         
         <p>These are a list of my hobbies and interests that I do in my free time</p>
         
-        <div class="hobbiesInterests">     <!-- gpm 2018-11-3 This divides my hobbies/interests section into a seperate class so I can reference it easier -->
+        <section id="hobbiesInterests">     <!-- gpm 2018-11-3 This divides my hobbies/interests section into a seperate class so I can reference it easier -->
         <ol>
             <li>Golf</li>
             <li>Bowling</li>
@@ -46,19 +52,19 @@
             <li>Astronomy</li>
             <li>Table Tennis</li>
         </ol>
-        </div>
+        </section>
         
             
         
-        <div class="images">                <!-- gpm 2018-11-3 This puts all the images into a division called "images" so they can be sectioned together and referenced easier -->
-            <img src="astronomyPic.jpg" alt="image of the stars"/>
-            <img src="golf.jpg" alt="image of a golf ball"/>
-            <img src="bowling.jpg" alt="image of a bowling ball, pin, and shoes"/>  <!-- gpm 2018-11-1 these are the different pictures that I put in for my Hobbies and Interests section -->
-            <img src="steelers.jpg" alt="steelers logo"/>
-            <img src="penguins.jpg" alt="penguins logo"/>
-            <img src="ps4.jpg" alt="gaming controller"/>
-            <img src="tabletennis.jpg" alt="picture of ping pong table"/>
-        </div>
+        <section id="images">                <!-- gpm 2018-11-3 This puts all the images into a division called "images" so they can be sectioned together and referenced easier -->
+            <img src="astronomyPic.jpg" alt="image of the stars" id="stars" class="image"/>
+            <img src="golf.jpg" alt="image of a golf ball" id="golf" class="image"/>
+            <img src="bowling.jpg" alt="image of a bowling ball, pin, and shoes" id="bowling" class="image"/>  <!-- gpm 2018-11-1 these are the different pictures that I put in for my Hobbies and Interests section -->
+            <img src="steelers.jpg" alt="steelers logo" id="steelers" class="image"/>
+            <img src="penguins.jpg" alt="penguins logo" id="penguins" class="image"/>
+            <img src="ps4.jpg" alt="gaming controller" id="ps4" class="image"/>
+            <img src="tabletennis.jpg" alt="picture of ping pong table" id="pingPong" class="image"/>
+        </section>
             
         <hr />
         
@@ -67,14 +73,14 @@
         <p>In the future, I have a few goals in mind that I would like to complete in the near future. 
         Here is a list of them, in no particular order.</p>
         
-        <div class="futureGoals">  <!-- gpm 2018-11-3 this divides the future goals section into its own section so I can reference it easier -->  
+        <section id="futureGoals">  <!-- gpm 2018-11-3 this divides the future goals section into its own section so I can reference it easier -->  
         <ul>
             <li>Graduate College with a degree</li>
             <li>Get a stable job out of college</li>
             <li>Have enough money from a job to buy a house</li>        <!-- gpm 2018-11-1 This is the list of my future goals that I have for myself that I want to complete in the near future -->
             <li>Have enough money to buy my own car</li>
         </ul> 
-        </div>
+        </section>
         
     </body>
 </html>
