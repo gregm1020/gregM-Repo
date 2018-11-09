@@ -21,3 +21,7 @@ ul {        /* gpm 2018-11-7 changes the unordered list to a new font to show up
 h4 {        /* gpm 2018-11-7 changes the headings of each section to show up better  */
     font-family: "Impact", Charcoal, sans-serif;
 }
+
+.classes {
+    border-top: 1px solid black;
+}
