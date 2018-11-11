@@ -22,6 +22,13 @@ h4 {        /* gpm 2018-11-7 changes the headings of each section to show up bet
     font-family: "Impact", Charcoal, sans-serif;
 }
 
-.classes {
+#classes {                  /* gpm 2018-11-11 changes the padding for the classes section  */
     border-top: 1px solid black;
+}
+
+#educationInfo {        /* gpm 2018-11-11 changes the padding for the education information section  */
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
