@@ -7,6 +7,11 @@ font-family: arial, helvetica, sans-serif;
 h1 {     /* gpm 2018-10-31 changes the first header to be in the center of the webpage */
     text-align: center;
     font-family: "Courier New", Monospace, sans-serif;      /* gpm 2018-11-1 This is changing the font of the heading of the website to courier new  */
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #0066ff;
 }
 
 h4 {        /* gpm 2018-11-1 I changed all the heading 4 text to be courier new  */
