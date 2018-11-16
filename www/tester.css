@@ -27,10 +27,12 @@ p {     /* gpm 2018-10-31 changing the font of the paragrph text  */
 }
 
 .image {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
-    width: 18%;
-    height: 18%;
+    width: 15%;
+    height: 15%;
     display: flex;              /* gpm 2018-11-11 makes the pictures display in a vertical line */
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 ul {    /* gpm 2018-10-31 this is changing the unordered list bullet points to be squares */
@@ -61,5 +63,17 @@ ol {    /*  gpm 2018-10-31  this is changing the ordered list from numbers to ro
 
 #aboutMe {              /* gpm 2018-11-11 changes the padding for the about me section  */
     padding: 5px 10px 5px 10px;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
