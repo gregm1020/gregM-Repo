@@ -13,8 +13,11 @@
       <h1>Greg Maleckar</h1>
       <h5>150 Finoli Drive</h5>
       <h5>Greensburg, PA</h5> 
-      <h5>(724)555-0150</h5>
-      <h5>gpm20@pitt.edu</h5>  
+      <h5>(724)555-0150</h5>  
+         
+      <p id="showEmail" style="display:none">gpm20 at pitt.edu</p>
+         
+      <button type="button" onclick="document.getElementById('showEmail').style.display='block'">Click me to reveal my email address</button>       <!-- gpm 11-27-18 this is one method of my javascript where if you click this button it will show my email address -->
          
      </header>
         
@@ -26,7 +29,9 @@
      <section id="education">    <!-- gpm 2018-11-6 this splits up the education section to reference easier -->
      <h4>Education</h4> 
     
-          <p>I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</p>
+          <button type="button" onclick="document.getElementById('hideInfo').style.display='none'">Click to hide education information</button>     <!-- gpm 11-27-18 this is the third javascript implementation by clicking the button and hiding the education information section -->
+    
+          <p id="hideInfo">I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</p>
          
       <section id="classes">        <!-- gpm 2018-11-9 this splits up the classes so i can make a border to seperate them easier -->
       <h4>Classes I have taken</h4>

@@ -18,7 +18,10 @@
         <h4>About Me</h4>
         
         <div id="aboutMe">       <!-- gpm 2018-11-3 This divides the about me paragraph section into a category of its own so I can reference it easier in my CSS file -->
-            <p>I am currently 20 years of age. I was born and grew up in the city of Pittsburgh. I went to Pine-Richland High School.</p>
+            
+            <button type="button" onclick="document.getElementById('changeStyle').style.fontSize='30px'">Click me to change the style</button>      <!-- gpm 11-27-18 this is the fourth implementation of javascript which when you click the button changes the style of the text -->
+            
+            <p id="changeStyle">I am currently 20 years of age. I was born and grew up in the city of Pittsburgh. I went to Pine-Richland High School.</p>
         </div>
         
         <hr />
@@ -48,13 +51,17 @@
         </ol>
         </div>
             
+           
+            
+        <button onclick="document.getElementById('myImage').src='img/tabletennis.jpg'">Click to change picture</button>     <!-- gpm 11-27-18 this is the second javascript implement that whenever you click on this button it reveals another image in place of the bowling image -->
+            
+        <img id="myImage" src="img/bowling.jpg" style="width:100px"/>       <!-- gpm 11-27-18 this is identifying the image of the bowling pic to use in the button above -->
         
         <div id="images">  
             <div class="image-container">           <!-- gpm 2018-11-3 This puts all the images into a division called "images" so they can be sectioned together and referenced easier -->
-                <img src="img/bowling.jpg" alt="image of a bowling ball, pin, and shoes" id="bowling" class="image"/>  <!-- gpm 2018-11-1 these are the different pictures that I put in for my Hobbies and Interests section -->
+                <img src="img/bowling.jpg" alt="image of a bowling ball, pin, and shoes" id="bowling" class="image"/>   <!-- gpm 2018-11-1 these are the different pictures that I put in for my Hobbies and Interests section -->
                 <img src="img/penguins.jpg" alt="penguins logo" id="penguins" class="image"/>
                 <img src="img/ps4.jpg" alt="gaming controller" id="ps4" class="image"/>
-                <img src="img/tabletennis.jpg" alt="picture of ping pong table" id="pingPong" class="image"/>
                 <img src="img/newPic1.jpg" alt="picture of ice" id="ice" class="image"/>
                 <img src="img/newPic2.jpg" alt="picture of flooding" id="flood" class="image"/>
                 <img src="img/newPic3.jpg" alt="picture of fall trees" id="trees" class="image"/>
