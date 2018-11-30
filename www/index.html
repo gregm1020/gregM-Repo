@@ -4,6 +4,7 @@
         <title>My Website</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="tester.js">/**/</script>            <!-- gpm 2018-11-30 this links to my javascript file -->
         <link rel="stylesheet" type="text/css" href="tester.css"/>
     </head>
     <body>
@@ -13,13 +14,12 @@
          
         <!-- gpm 2018-11-16 adds a menu bar that references my resume pages and the different sections in that page -->
         <!--#include virtual="menu.html" -->
-        
-        
+       
         <h4>About Me</h4>
         
         <div id="aboutMe">       <!-- gpm 2018-11-3 This divides the about me paragraph section into a category of its own so I can reference it easier in my CSS file -->
             
-            <button type="button" onclick="document.getElementById('changeStyle').style.fontSize='30px'">Click me to change the style</button>      <!-- gpm 11-27-18 this is the fourth implementation of javascript which when you click the button changes the style of the text -->
+            <div id="zero"><button type="button" onclick="document.getElementById('changeStyle').style.fontSize='30px'">Click me to change the style</button></div>      <!-- gpm 2018-11-27 this is the fourth implementation of javascript which when you click the button changes the style of the text -->
             
             <p id="changeStyle">I am currently 20 years of age. I was born and grew up in the city of Pittsburgh. I went to Pine-Richland High School.</p>
         </div>
@@ -50,12 +50,10 @@
             <li>Table Tennis</li>
         </ol>
         </div>
-            
            
+        <div id="one"><button onclick="document.getElementById('myImage').src='img/tabletennis.jpg'">Click to change picture</button></div>     <!-- gpm 2018-11-27 this is the second javascript implement that whenever you click on this button it reveals another image in place of the bowling image -->
             
-        <button onclick="document.getElementById('myImage').src='img/tabletennis.jpg'">Click to change picture</button>     <!-- gpm 11-27-18 this is the second javascript implement that whenever you click on this button it reveals another image in place of the bowling image -->
-            
-        <img id="myImage" alt="bowling picture" src="img/bowling.jpg" style="width:100px"/>       <!-- gpm 11-27-18 this is identifying the image of the bowling pic to use in the button above -->
+       <img id="myImage" alt="bowling picture" src="img/bowling.jpg" style="width:100px"/>    <!-- gpm 2018-11-27 this is identifying the image of the bowling pic to use in the button above -->
         
         <div id="images">  
             <div class="image-container">           <!-- gpm 2018-11-3 This puts all the images into a division called "images" so they can be sectioned together and referenced easier -->

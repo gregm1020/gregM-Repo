@@ -4,8 +4,9 @@
         <title>My Resume</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="tester.js">/**/</script>            <!-- gpm 2018-11-30 this links to my javascript file -->  
         <link rel="stylesheet" type="text/css" href="resume.css"/>
-        <script type="text/javascript">window.addEventListner ('DOMContentLoaded', alert('This is my Resume page'), false);</script>
+        <script type="text/javascript">window.addEventListner ('DOMContentLoaded', alert('This is my Resume page'), false);</script>        <!-- gpm 2018-11-30 this is a javascript listener that shows a display box to show that the page loaded when you open the page up -->
     </head>
     <body>
         
@@ -18,7 +19,7 @@
          
       <p id="showEmail" style="display:none">gpm20 at pitt.edu</p>
          
-      <button type="button" onclick="document.getElementById('showEmail').style.display='block'">Click me to reveal my email address</button>       <!-- gpm 11-27-18 this is one method of my javascript where if you click this button it will show my email address -->
+         <div id="two"><button type="button" onclick="document.getElementById('showEmail').style.display='block'">Click me to reveal my email address</button></div>      <!-- gpm 2018-11-27 this is one method of my javascript where if you click this button it will show my email address -->
          
      </header>
         
@@ -30,7 +31,7 @@
      <section id="education">    <!-- gpm 2018-11-6 this splits up the education section to reference easier -->
      <h4>Education</h4> 
     
-          <button type="button" onclick="document.getElementById('hideInfo').style.display='none'">Click to hide education information</button>     <!-- gpm 11-27-18 this is the third javascript implementation by clicking the button and hiding the education information section -->
+         <div id="three"><button type="button" onclick="document.getElementById('hideInfo').style.display='none'">Click to hide education information</button></div>     <!-- gpm 2018-11-27 this is the third javascript implementation by clicking the button and hiding the education information section -->
     
           <p id="hideInfo">I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</p>
          
