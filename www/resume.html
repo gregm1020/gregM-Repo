@@ -13,37 +13,61 @@
      <header id="personalInfo">       <!-- gpm 2018-11-6 This sections off the top of the document to make it easier to reference -->
       
       <h1>Greg Maleckar</h1>
-      <h5>150 Finoli Drive</h5>
-      <h5>Greensburg, PA</h5> 
+      <h5><span class="place">150 Finoli Drive</span></h5>
+      <h5><span class="place">Greensburg, PA</span></h5> 
       <h5>(724)555-0150</h5>  
          
       <p id="showEmail" style="display:none">gpm20 at pitt.edu</p>
          
          <div id="two"><button type="button" onclick="document.getElementById('showEmail').style.display='block'">Click me to reveal my email address</button></div>      <!-- gpm 2018-11-27 this is one method of my javascript where if you click this button it will show my email address -->
          
-     </header>
+     </header>   
         
         
      <!-- gpm 2018-11-16 adds a menu bar that references my resume pages and the different sections in that page -->
     <!--#include virtual="menu.html" -->
        
+     
+     <div id="fieldset">
+        <fieldset>          <!-- gpm 2018-12-2 this is the start of the fieldset which has the checkboxes for the javascript implementation to highlight certain parts of the document according to what you checkbox you click -->
+            <legend>Click to Highlight:</legend>
+             <input type="checkbox" id="EDtoggle" style="cursor:pointer" />
+             <span class="EdInfo">Education Information</span>
+             <br />
+             <input type="checkbox" id="CLASStoggle" style="cursor:pointer" />
+             <span class="ClassInfo">Previous Classes</span>
+             <br />
+             <input type="checkbox" id="VOLtoggle" style="cursor:pointer" />
+             <span class="VolunteerInfo">Volunteer Information</span>
+             <br />
+             <input type="checkbox" id="SKILLtoggle" style="cursor:pointer" />
+             <span class="SkillInfo">Skills Information</span>
+             <br />
+             <input type="checkbox" id="INTERtoggle" style="cursor:pointer" />
+             <span class="InterestInfo">Interest Information</span>
+             <br />
+             <input type="checkbox" id="PLACEtoggle" style="cursor:pointer" />
+             <span class="place">Places</span>
+             <br />
+        </fieldset>
+     </div>
         
      <section id="education">    <!-- gpm 2018-11-6 this splits up the education section to reference easier -->
      <h4>Education</h4> 
     
          <div id="three"><button type="button" onclick="document.getElementById('hideInfo').style.display='none'">Click to hide education information</button></div>     <!-- gpm 2018-11-27 this is the third javascript implementation by clicking the button and hiding the education information section -->
     
-          <p id="hideInfo">I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</p>
+         <p id="hideInfo"><span class="EdInfo">I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</span></p>
          
       <section id="classes">        <!-- gpm 2018-11-9 this splits up the classes so i can make a border to seperate them easier -->
       <h4>Classes I have taken</h4>
       
       <ul>
-          <li>Introduction to Information Systems</li>
-          <li>Introduction to Java Programming</li>
-          <li>Advanced Java Programming</li>
-          <li>Introduction to HTML/Javascript</li>
-          <li>Introduction to Psychology</li>
+          <li><span class="ClassInfo">Introduction to Information Systems</span></li>
+          <li><span class="ClassInfo">Introduction to Java Programming</span></li>
+          <li><span class="ClassInfo">Advanced Java Programming</span></li>
+          <li><span class="ClassInfo">Introduction to HTML/Javascript</span></li>
+          <li><span class="ClassInfo">Introduction to Psychology</span></li>
       </ul>
       </section>
          
@@ -55,10 +79,10 @@
      <h4>Volunteer Work</h4>
          
         <ul>
-            <li>Worked at a spaghetti dinner at my church</li>
-            <li>Helped kids learn how to golf at a golf clinic for 2 summers</li>
-            <li>Helped at Overly's Country Christmas in the kitchen</li>
-            <li>I have played golf for 1 year in college</li>
+            <li><span class="VolunteerInfo">Worked at a spaghetti dinner at my church</span></li>
+            <li><span class="VolunteerInfo">Helped kids learn how to golf at a golf clinic for 2 summers</span></li>
+            <li><span class="VolunteerInfo">Helped at Overly's Country Christmas in the kitchen</span></li>
+            <li><span class="VolunteerInfo">I have played golf for 1 year in college</span></li>
         </ul>
         
      </section>   
@@ -69,9 +93,9 @@
      <h4>Skills</h4>
      
         <ul>
-            <li>Microsoft Word, Excel, Powerpoint</li>
-            <li>Java, Visual Basic, HTML</li>
-            <li>Oxygen XML Editor, Visual Studio</li>
+            <li><span class="SkillInfo">Microsoft Word, Excel, Powerpoint</span></li>
+            <li><span class="SkillInfo">Java, Visual Basic, HTML</span></li>
+            <li><span class="SkillInfo">Oxygen XML Editor, Visual Studio</span></li>
         </ul>
      
      </section>
@@ -82,15 +106,13 @@
      <h4>Interests</h4>    
          
       <ul>
-          <li>Pitt Golf Team 2017-18</li>
-          <li>Hampton Handbells 2013-2015</li>
-          <li>Pine Richland Golf Team 2013-2017, Captain 2016-2017</li>
-          <li>Pine Richland Marching Band 2013-2017</li>
+          <li><span class="InterestInfo">Pitt Golf Team 2017-18</span></li>
+          <li><span class="InterestInfo">Hampton Handbells 2013-2015</span></li>
+          <li><span class="InterestInfo">Pine Richland Golf Team 2013-2017, Captain 2016-2017</span></li>
+          <li><span class="InterestInfo">Pine Richland Marching Band 2013-2017</span></li>
       </ul>   
          
      </section>
-       
-       <hr />
         
     </body>
 </html>

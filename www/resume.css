@@ -29,3 +29,17 @@ h4 {        /* gpm 2018-11-7 changes the headings of each section to show up bet
 #classes {                  /* gpm 2018-11-11 changes the padding for the classes section  */
     border-top: 1px solid black;
 }
+
+
+span.EdInfo.on {color: #0000ff}     /* gpm 2018-12-2 these change the color of the text that is education info */
+
+span.ClassInfo.on {color: #ff0066}      /* gpm 2018-12-2 these change the color of the text that is class info */
+
+span.VolunteerInfo.on {color: #ffcc00}      /* gpm 2018-12-2 these change the color of the text that is volunteer info */
+    
+span.SkillInfo.on {color: #669900}      /* gpm 2018-12-2 these change the color of the text that is skill info */
+
+span.InterestInfo.on {color: #ff66ff}       /* gpm 2018-12-2 these change the color of the text that is interest info */
+
+span.place.on {color:#c2f29e}       /* gpm 2018-12-2 these change the color of the text that is different places */
+
