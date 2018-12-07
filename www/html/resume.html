@@ -4,20 +4,20 @@
         <title>My Resume</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="js/tester.js">/**/</script>            <!-- gpm 2018-11-30 this links to my javascript file -->  
-        <link rel="stylesheet" type="text/css" href="css/resume.css"/>
+        <script src="../js/tester.js">/**/</script>            <!-- gpm 2018-11-30 this links to my javascript file -->  
+        <link rel="stylesheet" type="text/css" href="../css/resume.css"/>
         <script type="text/javascript">window.addEventListner ('DOMContentLoaded', alert('This is my Resume page'), false);</script>        <!-- gpm 2018-11-30 this is a javascript listener that shows a display box to show that the page loaded when you open the page up -->
     </head>
     <body>
         
-     <header id="personalInfo">       <!-- gpm 2018-11-6 This sections off the top of the document to make it easier to reference -->
+     <header id="personalInfo">       
       
       <h1>Greg Maleckar</h1>
       <h5><span class="place">150 Finoli Drive</span></h5>
       <h5><span class="place">Greensburg, PA</span></h5> 
       <h5>(724)555-0150</h5>  
          
-      <p id="showEmail" style="display:none">gpm20 at pitt.edu</p>
+      <h5 id="showEmail" style="display:none">gpm20 at pitt.edu</h5>
          
          <div id="two"><button type="button" onclick="document.getElementById('showEmail').style.display='block'">Click me to reveal my email address</button></div>      <!-- gpm 2018-11-27 this is one method of my javascript where if you click this button it will show my email address -->
          
@@ -26,40 +26,13 @@
         
      <!-- gpm 2018-11-16 adds a menu bar that references my resume pages and the different sections in that page -->
     <!--#include virtual="menu.html" -->
-       
-     
-     <div id="fieldset">
-        <fieldset>          <!-- gpm 2018-12-2 this is the start of the fieldset which has the checkboxes for the javascript implementation to highlight certain parts of the document according to what you checkbox you click -->
-            <legend>Click to Highlight:</legend>
-             <input type="checkbox" id="EDtoggle" style="cursor:pointer" />
-             <span class="EdInfo">Education Information</span>
-             <br />
-             <input type="checkbox" id="CLASStoggle" style="cursor:pointer" />
-             <span class="ClassInfo">Previous Classes</span>
-             <br />
-             <input type="checkbox" id="VOLtoggle" style="cursor:pointer" />
-             <span class="VolunteerInfo">Volunteer Information</span>
-             <br />
-             <input type="checkbox" id="SKILLtoggle" style="cursor:pointer" />
-             <span class="SkillInfo">Skills Information</span>
-             <br />
-             <input type="checkbox" id="INTERtoggle" style="cursor:pointer" />
-             <span class="InterestInfo">Interest Information</span>
-             <br />
-             <input type="checkbox" id="PLACEtoggle" style="cursor:pointer" />
-             <span class="place">Places</span>
-             <br />
-        </fieldset>
-     </div>
         
-     <section id="education">    <!-- gpm 2018-11-6 this splits up the education section to reference easier -->
-     <h4>Education</h4> 
-    
-         <div id="three"><button type="button" onclick="document.getElementById('hideInfo').style.display='none'">Click to hide education information</button></div>     <!-- gpm 2018-11-27 this is the third javascript implementation by clicking the button and hiding the education information section -->
+     <section id="education">   
+     <h4>Education</h4>    
     
          <p id="hideInfo"><span class="EdInfo">I am currently studying at the University of Pittsburgh at Greensburg, I am pursuing a bachelor's degree in Information Technology, and I graduate in the year 2021</span></p>
          
-      <section id="classes">        <!-- gpm 2018-11-9 this splits up the classes so i can make a border to seperate them easier -->
+      <section id="classes">        
       <h4>Classes I have taken</h4>
       
       <ul>

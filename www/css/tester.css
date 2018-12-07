@@ -1,12 +1,12 @@
 body { 
-background-color: #669999;          /* gpm 2018-11-1 this is the background color of the entire webpage */
+background-color: #b800a3;          /* gpm 2018-11-1 this is the background color of the entire webpage */
 color: #2e2e1a;                 /*  gpm 2018-11-1 this is the color of the text in the document */
 font-family: arial, helvetica, sans-serif;
 }
 
-h1 {     /* gpm 2018-10-31 changes the first header to be in the center of the webpage */
+h1 {     
     text-align: center;
-    font-family: "Courier New", Monospace, sans-serif;      /* gpm 2018-11-1 This is changing the font of the heading of the website to courier new  */
+    font-family: "Courier New", Monospace, sans-serif;      
     padding: 20px;
     border: 2px solid black;
     margin-bottom: 20px;
@@ -14,60 +14,51 @@ h1 {     /* gpm 2018-10-31 changes the first header to be in the center of the w
     background-color: #0066ff;
 }
 
-h4 {        /* gpm 2018-11-1 I changed all the heading 4 text to be courier new  */
-    font-family: "Courier New", Monospace, sans-serif;
-    background-color: #0066ff;      /* gpm 2018-11-1 This changes the background color of the titles for each section */
-}
-
-p {     /* gpm 2018-10-31 changing the font of the paragrph text  */
+h4 {       
     font-family: "Impact", Charcoal, sans-serif;
-    border: 1px solid black;
-    outline-style: double;      /* gpm 2018-11-1 this puts a double outline border over most of my paragraph elements in my webpage */
-    outline-color: #cc33ff;
 }
 
-.image {   /* gpm 2018-10-31  this is changing the images to be scaled to the same width  */
+p {     
+    font-family: "Courier New", Monospace, sans-serif;
+}
+
+.image {   
     width: 15%;
     height: 15%;
-    display: flex;              /* gpm 2018-11-11 makes the pictures display in a vertical line */
+    display: flex;              
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
 }
 
-ul {    /* gpm 2018-10-31 this is changing the unordered list bullet points to be squares */
+ul {    
     list-style-type: square;
     border: 1px solid black;
     outline-style: double;
-    outline-color: #cc33ff;
+    outline-color: #0066ff;
 }
 
-ol {    /*  gpm 2018-10-31  this is changing the ordered list from numbers to roman numerals */
+ol {   
     list-style-type: upper-roman;
     border: 1px solid black;
     outline-style: double;
-    outline-color: #cc33ff;
+    outline-color: #0066ff;
 }
 
-#hobbiesInterests {             /* gpm 2018-11-11 changes the padding for the hobbies/interests section  */
+#hobbiesInterests {             
     padding: 5px 10px 5px 10px;
 }
 
-#futureGoals {              /* gpm 2018-11-11 changes the padding for the future goals section  */
+#futureGoals {             
     padding: 5px 10px 5px 10px;
 }
 
-#educationInfo {            /* gpm 2018-11-11 changes the padding for the education information section  */
+#educationInfo {            
     padding: 5px 10px 5px 10px;
 }
 
-#aboutMe {              /* gpm 2018-11-11 changes the padding for the about me section  */
+#aboutMe {              
     padding: 5px 10px 5px 10px;
-}
-
-.svg {
-    display: flex;
-    justify-content: center;
 }
 
 .image-container {

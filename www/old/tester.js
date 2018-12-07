@@ -34,7 +34,7 @@ var hide = document.getElementById("hideInfo")      /* gpm 2018-11-30 hides the 
 }
 
 function toggle() {
-    var id=this.id
+    var id = this.id;
     switch (id) {       /* gpm 2018-12-2 this goes through multiple cases for our checkboxes at the start of the resume document */
         case "EDtoggle": {                  /* gpm 2018-12-2 This case is for if the id is education info */
             var educ = document.getElementsByClassName("EdInfo");
@@ -79,7 +79,7 @@ function toggle() {
     };
     break;
     }
-  }  
+  }
+window.onload = init;  
 }
 
-window.onload = init;
